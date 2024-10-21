@@ -1,4 +1,4 @@
-# ARP-Attack-and-Network-Sniffing
+![WhatsApp Image 2024-10-20 at 20 45 11_5af44955](https://github.com/user-attachments/assets/2bda45d6-dd4b-44e5-8a01-0257af881041)# ARP-Attack-and-Network-Sniffing
 # Explore Network Sniffing and ARP Attacks
 
 # AIM:
@@ -24,11 +24,15 @@ ARP spoofing: A hacker sends fake ARP packets that link an attacker's MAC addres
 Boot kali and Windows7 virtual machines.
 In windows 7 give the command arp -a
 ## OUTPUT:
+![WhatsApp Image 2024-10-20 at 20 45 12_2934b9b4](https://github.com/user-attachments/assets/f1951f29-8d7b-4863-9b06-ceee2545a795)
+
 
 
 From kali linux issue the command :
 sudo arpspoof -i eth0 -t <target system> <gateway>
 ## OUTPUT:
+![WhatsApp Image 2024-10-21 at 09 23 12_abc0f04e](https://github.com/user-attachments/assets/40550f1c-1412-4d81-9561-e48bf574e579)
+
 
 
  dsniff:
@@ -40,6 +44,10 @@ sudo arpspoof -i eth0 -t <target system> <gateway>
 
 In Metasploit open the ftp console as below. Also you can try other ftp websites ftp.vim.org
 ## OUTPUT:
+![WhatsApp Image 2024-10-20 at 20 45 11_5af44955](https://github.com/user-attachments/assets/08b8759c-3393-4a4e-b132-9d344bcb40f6)
+![WhatsApp Image 2024-10-21 at 09 23 12_f453377e](https://github.com/user-attachments/assets/32eed6bb-3d4e-4a92-90a6-39831e58b77e)
+
+
 
 
 
@@ -47,6 +55,8 @@ In Metasploit open the ftp console as below. Also you can try other ftp websites
 In Kali issue the following commands:
 sudo dsnifff
 ## OUTPUT:
+![WhatsApp Image 2024-10-20 at 20 45 12_ec2f8bff](https://github.com/user-attachments/assets/5908e85c-5f53-41bb-a766-76c457b96aae)
+
 
 
 
